@@ -228,7 +228,6 @@ section {
   transition: var(--transition);
   position: relative;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .project-card::before {
