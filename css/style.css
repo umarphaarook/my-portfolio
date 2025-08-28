@@ -264,6 +264,17 @@ section {
   margin-bottom: 1.5rem;
 }
 
+/* Ensure footer content (tags + link) sits at the bottom */
+.project-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-footer {
+  margin-top: auto;
+}
+
 .project-tags {
   display: flex;
   gap: 0.5rem;
